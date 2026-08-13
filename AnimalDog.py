@@ -3,7 +3,7 @@ class Animal:
     def __init__(self, name):
         self.name = name
     def speak(self):
-        print(self.name)
+        print(self.name + " Says Woof !!")
 # Create the Dog class (inherits from Animal)
 class Dog(Animal):
     pass   ## Forgot it
